@@ -1,0 +1,49 @@
+# Haskell build artifacts
+dist-newstyle/
+dist/
+*.hi
+*.o
+*.exe
+*.dyn_hi
+*.dyn_o
+*.p_hi
+*.p_o
+*.prof
+*.aux
+*.hp
+*.ps
+*.cgi
+*.hp
+
+# Cabal
+cabal.project.local
+*.cabal.bak
+*.cabal.swp
+*.cabal~
+.cabal-sandbox/
+cabal.sandbox.config
+
+# Stack
+.stack-work/
+
+# GHC
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite
+*.db
+
